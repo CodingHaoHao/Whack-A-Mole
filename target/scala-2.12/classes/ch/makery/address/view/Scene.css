@@ -1,0 +1,43 @@
+#scoreLabel, #settingsLabel {
+    -fx-text-fill: black;
+    -fx-font-size: 22pt;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+#LeaderBoardReplayButton, #LeaderBoardExitButton, #StartRuleButton, #StartGameButton,#resumeButton,#restartButton,#exitButton {
+    -fx-background-color: transparent;
+    -fx-min-height: 50px;
+}
+
+#LeaderBoardReplayButton {
+    -fx-graphic: url("/images/ReplayButton.png");
+}
+
+#LeaderBoardExitButton {
+    -fx-graphic: url("/images/ExitButton.png");
+}
+
+#StartRuleButton{
+    -fx-graphic: url("/images/StartRuleButton.png");
+}
+
+#StartGameButton{
+    -fx-graphic: url("/images/StartGameButton.png");
+}
+
+#settingsButton{
+    -fx-graphic: url("/images/Setting.png");
+    -fx-background-color: transparent;
+}
+
+#resumeButton{
+    -fx-graphic: url("/images/resumeButton.png");
+}
+
+#restartButton{
+    -fx-graphic: url("/images/restartButton.png");
+}
+
+#exitButton{
+    -fx-graphic: url("/images/exitGameButton.png");
+}
